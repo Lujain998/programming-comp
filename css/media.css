@@ -1,0 +1,37 @@
+/*start media query*/
+@media (max-width: 768px) /*which is the max width of mobile screens and tablets(xs)*/
+{
+	.navbar-inverse .navbar-nav > li > a
+	{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.subscribe .form-control
+	{
+		margin: 20px auto;
+		width: 400px;
+	}
+	.navbar-fixed-top .navbar-collapse,
+	.navbar-fixed-bottom .navbar-collapse
+	{
+		max-height: none;
+	}
+	.footer .work
+	{
+		text-align: center;
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 991px)/*small screens */
+{
+	
+}
+@media (min-width: 991px) and (max-width: 1199px)/*medium screens */
+{
+	
+}
+@media (min-width: 1200px)/*large screens */
+{
+
+}
+/*end media query*/
